@@ -226,12 +226,12 @@ main { padding: 8px 14px 24px; }
 .sec-title .bar { width: 6px; height: 24px; background: linear-gradient(var(--gold-2), var(--copper)); border-radius: 4px; box-shadow: 0 0 12px var(--glow); }
 .sec-sub { font-size: 12.5px; color: var(--muted); margin-top: 4px; padding-inline-start: 17px; }
 
-.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
 
 .card {
   position: relative; background: var(--brown); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 20px 20px; box-shadow: var(--shadow-s); display: flex; flex-direction: column; gap: 9px;
+  padding: 16px 17px; box-shadow: var(--shadow-s); display: flex; flex-direction: column; gap: 7px;
   transition: transform .4s var(--ease), box-shadow .4s var(--ease), border-color .4s var(--ease);
 }
 .card:hover {
@@ -241,7 +241,7 @@ main { padding: 8px 14px 24px; }
 }
 .card.na { opacity: .55; }
 .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
-.card-name { font-family: 'Tajawal'; font-weight: 700; font-size: 18px; color: var(--cream); line-height: 1.3; }
+.card-name { font-family: 'Tajawal'; font-weight: 700; font-size: 17px; color: var(--cream); line-height: 1.3; }
 [dir=ltr] .card-name { font-family: 'Poppins'; font-weight: 600; }
 .card-en { display: block; font-family: 'Poppins'; font-weight: 500; font-size: 11px; color: var(--gold); letter-spacing: .4px; margin-top: 2px; opacity: .85; }
 [dir=ltr] .card-en { font-family: 'IBM Plex Sans Arabic'; }
@@ -253,7 +253,7 @@ main { padding: 8px 14px 24px; }
 .price .cur { font-size: 11px; opacity: .8; }
 .price .cur-ic { height: .82em; width: auto; vertical-align: -.08em; }
 .price.na-price { color: var(--muted); background: rgba(244,230,208,.06); border-color: var(--line); box-shadow: none; }
-.desc { font-size: 13.5px; color: var(--cream-d); margin: 0; opacity: .9; }
+.desc { font-size: 13px; color: var(--cream-d); margin: 0; opacity: .9; }
 .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 .badge {
   display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 700;
