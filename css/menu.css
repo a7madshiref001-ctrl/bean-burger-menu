@@ -133,18 +133,18 @@ button { font-family: inherit; cursor: pointer; }
 .logo-wrap { position: relative; margin: 2px auto 0; }
 /* rotating gold sweep — clearly visible motion behind the logo */
 .logo-wrap::after {
-  content: ''; position: absolute; top: 50%; left: 50%; width: 130%; height: 230%;
+  content: ''; position: absolute; top: 50%; left: 50%; width: 165%; height: 300%;
   transform: translate(-50%, -50%); z-index: 0; pointer-events: none;
   background: conic-gradient(from 0deg, transparent 0deg, rgba(214,160,73,.26) 60deg, transparent 140deg, transparent 200deg, rgba(180,106,50,.2) 260deg, transparent 340deg);
-  filter: blur(26px); border-radius: 50%;
+  filter: blur(24px); border-radius: 50%;
   animation: glowSpin 30s linear infinite;
 }
 /* pulsing core halo */
 .logo-wrap::before {
-  content: ''; position: absolute; top: 50%; left: 50%; width: 92%; height: 175%;
+  content: ''; position: absolute; top: 50%; left: 50%; width: 122%; height: 220%;
   transform: translate(-50%, -50%); z-index: 1;
   background: radial-gradient(closest-side, rgba(233,196,131,.38), rgba(214,160,73,.16) 55%, transparent 76%);
-  filter: blur(16px); animation: glowPulse 7s var(--ease) infinite; pointer-events: none;
+  filter: blur(15px); animation: glowPulse 7s var(--ease) infinite; pointer-events: none;
 }
 .brand-logo {
   position: relative; z-index: 2; width: min(100%, 520px); height: auto; margin: 0 auto;
